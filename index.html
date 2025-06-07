@@ -10,64 +10,76 @@
       font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f9fc;
+      background: #f4f4f4;
       color: #333;
     }
     header {
-      background: #2c3e50;
+      background: linear-gradient(rgba(191,87,0,0.9), rgba(191,87,0,0.9)), url('https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/2023-03/landmodeling.jpg') center/cover no-repeat;
       color: white;
-      padding: 40px 20px;
+      padding: 60px 20px 40px 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5em;
+      font-size: 2.7em;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
     }
     header p {
-      font-size: 1.2em;
+      font-size: 1.3em;
+      margin-top: 10px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     }
     section {
       padding: 40px 20px;
-      max-width: 900px;
+      max-width: 950px;
       margin: auto;
       background: white;
-      margin-top: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
     }
     section h2 {
-      color: #2980b9;
+      color: #bf5700;
       border-bottom: 2px solid #eee;
       padding-bottom: 5px;
     }
     ul {
       padding-left: 20px;
+      line-height: 1.7em;
     }
     .agenda {
-      background: #eef7fb;
-      padding: 10px;
-      border-left: 4px solid #3498db;
+      background: #fff4e6;
+      padding: 15px;
+      border-left: 5px solid #bf5700;
       margin-bottom: 20px;
+      border-radius: 5px;
     }
     footer {
-      background: #2c3e50;
+      background: #333;
       color: white;
       padding: 20px;
       text-align: center;
-      margin-top: 40px;
+      margin-top: 50px;
     }
     .register-button {
       display: inline-block;
-      padding: 12px 20px;
-      background: #3498db;
-      color: white;
+      padding: 14px 22px;
+      background: white;
+      color: #bf5700;
       text-decoration: none;
       font-weight: bold;
-      border-radius: 6px;
-      transition: background 0.3s;
+      border: 2px solid white;
+      border-radius: 8px;
+      margin-top: 20px;
+      transition: all 0.3s ease-in-out;
     }
     .register-button:hover {
-      background: #2c80b4;
+      background: #fbeee6;
+      color: #bf5700;
+      border-color: #fbeee6;
+    }
+    a {
+      color: #bf5700;
     }
   </style>
 </head>
@@ -151,7 +163,7 @@
   </section>
 
   <footer>
-    &copy; 2025 Land Modeling Workshop | Designed for Gulf Coast Resilience
+    &copy; 2025 Land Modeling Workshop | Hosted by The University of Texas at Austin
   </footer>
 </body>
 </html>
